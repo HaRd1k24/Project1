@@ -2,8 +2,7 @@ package womanTestMagaz;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 import pages.BuyProduct;
 import pages.MainPage;
 
@@ -39,5 +38,5 @@ public class womanFirst  {
         buyProduct.findBlouse(a);
         buyProduct.searchResult(b);
     }
-    }
+}
 
