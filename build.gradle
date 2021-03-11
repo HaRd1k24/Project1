@@ -11,6 +11,7 @@ plugins {
     id 'java'
     id 'io.qameta.allure' version '2.5'
 }
+apply plugin: "io.qameta.allure"
 
 compileJava.options.encoding = 'UTF-8'
 
