@@ -1,7 +1,8 @@
-package womanTestMagaz;
+package womantestmagaz;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
+import io.qameta.allure.Description;
 import org.junit.jupiter.api.*;
 import pages.BuyProduct;
 import pages.MainPage;
@@ -30,6 +31,7 @@ public class womanFirst  {
 
     }
     @Test
+    @Description(value = "Находит продукт")
     public void searchProduct() {
         String clothes = "Blouse";
         Condition a = visible;
