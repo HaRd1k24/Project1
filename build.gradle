@@ -47,7 +47,6 @@ dependencies {
 }
 
 test {
-    systemProperty 'allure.results.directory', 'target/allure-results'
     useJUnitPlatform()
 }
 
